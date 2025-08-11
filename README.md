@@ -67,10 +67,19 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
    - Window object and its components
 
 9. **[DOM Manipulation](dom-manip.md)**
+
    - Selecting and traversing DOM elements
    - Creating, modifying, and removing elements
-   - Event handling and event delegation
+   - Working with attributes, classes, and styles
+   - Dynamic element creation and insertion
    - Practical examples and performance tips
+
+10. **[Events and Event Handling](events-and-handling.md)**
+    - Understanding event types and event objects
+    - Event handlers vs event listeners
+    - Event propagation (bubbling and capturing)
+    - Event delegation for dynamic content
+    - Best practices for event management
 
 ## 🎯 Learning Path
 
@@ -89,7 +98,7 @@ Build on the basics: 5. Arrays 6. Objects 7. Global Object
 
 ### Advanced Level
 
-Apply your knowledge to browser programming: 8. DOM Understanding 9. DOM Manipulation
+Apply your knowledge to browser programming: 8. DOM Understanding 9. DOM Manipulation 10. Events and Event Handling
 
 ## 💡 How to Use This Repository
 
