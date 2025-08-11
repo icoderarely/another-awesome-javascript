@@ -2,7 +2,22 @@
 
 Welcome to my JavaScript learning journey! This repository contains comprehensive notes and examples covering fundamental JavaScript concepts. Each file builds upon previous concepts, so I recommend following them in the suggested order.
 
-## 📚 Table of Contents
+## � Quick Navigation
+
+| File                                                             | Topic                          | Level        |
+| ---------------------------------------------------------------- | ------------------------------ | ------------ |
+| [01-variables-scope-hoisting.md](01-variables-scope-hoisting.md) | Variables, Scope, and Hoisting | Beginner     |
+| [02-data-types.md](02-data-types.md)                             | Data Types                     | Beginner     |
+| [03-operators.md](03-operators.md)                               | Operators                      | Beginner     |
+| [04-functions.md](04-functions.md)                               | Functions                      | Beginner     |
+| [05-arrays.md](05-arrays.md)                                     | Arrays                         | Intermediate |
+| [06-objects.md](06-objects.md)                                   | Objects                        | Intermediate |
+| [07-global.md](07-global.md)                                     | Global Object                  | Intermediate |
+| [08-dom.md](08-dom.md)                                           | DOM - Document Object Model    | Advanced     |
+| [09-dom-manip.md](09-dom-manip.md)                               | DOM Manipulation               | Advanced     |
+| [10-events-and-handling.md](10-events-and-handling.md)           | Events and Event Handling      | Advanced     |
+
+## �📚 Table of Contents
 
 ### Core JavaScript Fundamentals
 
@@ -52,21 +67,21 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
 
 ### Browser and Environment
 
-7. **[Global Object](global.md)**
+7. **[Global Object](07-global.md)**
 
    - Understanding the global scope
    - Browser (`window`) vs Node.js (`global`) vs Universal (`globalThis`)
    - Global variables and best practices
    - Avoiding global scope pollution
 
-8. **[DOM - Document Object Model](dom.md)**
+8. **[DOM - Document Object Model](08-dom.md)**
 
    - Understanding the DOM tree structure
    - Browser Object Model (BOM) and JavaScript core
    - DOM node types and collections
    - Window object and its components
 
-9. **[DOM Manipulation](dom-manip.md)**
+9. **[DOM Manipulation](09-dom-manip.md)**
 
    - Selecting and traversing DOM elements
    - Creating, modifying, and removing elements
@@ -74,7 +89,7 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
    - Dynamic element creation and insertion
    - Practical examples and performance tips
 
-10. **[Events and Event Handling](events-and-handling.md)**
+10. **[Events and Event Handling](10-events-and-handling.md)**
     - Understanding event types and event objects
     - Event handlers vs event listeners
     - Event propagation (bubbling and capturing)
@@ -104,7 +119,7 @@ Apply your knowledge to browser programming: 8. DOM Understanding 9. DOM Manipul
 
 ### For Sequential Learning
 
-- Follow the numbered files in order (01, 02, 03, etc.)
+- Follow the numbered files in order (01, 02, 03, ..., 10)
 - Each concept builds upon the previous ones
 - Practice the code examples in your browser console or a JavaScript environment
 
