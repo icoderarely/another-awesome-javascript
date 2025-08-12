@@ -16,6 +16,8 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
 | [08-dom.md](08-dom.md)                                           | DOM - Document Object Model    | Advanced     |
 | [09-dom-manip.md](09-dom-manip.md)                               | DOM Manipulation               | Advanced     |
 | [10-events-and-handling.md](10-events-and-handling.md)           | Events and Event Handling      | Advanced     |
+| [11-form-handling.md](11-form-handling.md)                       | Form Handling and Validation   | Advanced     |
+| [12-timers-and-intervals.md](12-timers-and-intervals.md)         | Timers and Intervals           | Advanced     |
 
 ## �📚 Table of Contents
 
@@ -96,6 +98,22 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
     - Event delegation for dynamic content
     - Best practices for event management
 
+### Advanced Web Development
+
+11. **[Form Handling and Validation](11-form-handling.md)**
+    - Form selection and data collection
+    - FormData API and form validation
+    - Event handling for forms
+    - Real-time validation and user feedback
+    - Best practices for form processing
+
+12. **[Timers and Intervals](12-timers-and-intervals.md)**
+    - setTimeout for delayed execution
+    - setInterval for repeated execution
+    - Clearing timers and managing timer lifecycles
+    - Advanced timer patterns and use cases
+    - Browser vs Node.js timer implementations
+
 ## 🎯 Learning Path
 
 ### Beginner Level
@@ -109,17 +127,29 @@ Start with the fundamentals in this order:
 
 ### Intermediate Level
 
-Build on the basics: 5. Arrays 6. Objects 7. Global Object
+Build on the basics:
+5. Arrays
+6. Objects
+7. Global Object
 
 ### Advanced Level
 
-Apply your knowledge to browser programming: 8. DOM Understanding 9. DOM Manipulation 10. Events and Event Handling
+Apply your knowledge to browser programming:
+8. DOM Understanding
+9. DOM Manipulation
+10. Events and Event Handling
+
+### Expert Level
+
+Master advanced web development concepts:
+11. Form Handling and Validation
+12. Timers and Intervals
 
 ## 💡 How to Use This Repository
 
 ### For Sequential Learning
 
-- Follow the numbered files in order (01, 02, 03, ..., 10)
+- Follow the numbered files in order (01, 02, 03, ..., 12)
 - Each concept builds upon the previous ones
 - Practice the code examples in your browser console or a JavaScript environment
 
@@ -200,10 +230,15 @@ Apply your knowledge to browser programming: 8. DOM Understanding 9. DOM Manipul
 After mastering these fundamentals, consider exploring:
 
 - **ES6+ Features**: Modern JavaScript syntax and features
-- **Asynchronous JavaScript**: Promises, async/await, and APIs
+- **Asynchronous JavaScript**: Promises, async/await, and fetch API
+- **Local Storage & Session Storage**: Client-side data persistence
+- **Regular Expressions**: Pattern matching and text processing
+- **Error Handling**: Try-catch blocks and debugging techniques
 - **JavaScript Frameworks**: React, Vue, or Angular
 - **Node.js**: Server-side JavaScript development
+- **API Integration**: RESTful APIs and JSON handling
 - **Testing**: Unit testing with Jest or similar frameworks
+- **Build Tools**: Webpack, Vite, and modern development workflows
 
 ## 📄 License
 
