@@ -101,6 +101,7 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
 ### Advanced Web Development
 
 11. **[Form Handling and Validation](11-form-handling.md)**
+
     - Form selection and data collection
     - FormData API and form validation
     - Event handling for forms
@@ -127,23 +128,15 @@ Start with the fundamentals in this order:
 
 ### Intermediate Level
 
-Build on the basics:
-5. Arrays
-6. Objects
-7. Global Object
+Build on the basics: 5. Arrays 6. Objects 7. Global Object
 
 ### Advanced Level
 
-Apply your knowledge to browser programming:
-8. DOM Understanding
-9. DOM Manipulation
-10. Events and Event Handling
+Apply your knowledge to browser programming: 8. DOM Understanding 9. DOM Manipulation 10. Events and Event Handling
 
 ### Expert Level
 
-Master advanced web development concepts:
-11. Form Handling and Validation
-12. Timers and Intervals
+Master advanced web development concepts: 11. Form Handling and Validation 12. Timers and Intervals
 
 ## 💡 How to Use This Repository
 
