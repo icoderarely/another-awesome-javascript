@@ -89,6 +89,176 @@ function example() {
 }
 ```
 
+## Lexical Scoping
+
+**Lexical Scoping** (also called **Static Scoping**) is a fundamental concept in JavaScript that determines how variables are accessed based on where they are defined in the code structure, not where they are called.
+
+### How Lexical Scoping Works
+
+JavaScript determines variable access by looking at the **physical placement** of variables and functions in the code when it's written, not when it's executed.
+
+```javascript
+let outerVariable = "I'm outer";
+
+function outerFunction() {
+  let outerFunctionVar = "I'm in outer function";
+
+  function innerFunction() {
+    let innerVar = "I'm inner";
+
+    // Inner function can access:
+    console.log(innerVar); // ✅ Own variable
+    console.log(outerFunctionVar); // ✅ Outer function's variable
+    console.log(outerVariable); // ✅ Global variable
+  }
+
+  innerFunction();
+  // console.log(innerVar); // ❌ Error: Can't access inner variable
+}
+
+outerFunction();
+```
+
+### The Scope Chain
+
+When JavaScript looks for a variable, it follows the **scope chain**:
+
+1. **Current scope** - Look in the current function/block
+2. **Parent scope** - Look in the containing function/block
+3. **Grandparent scope** - Continue up the chain
+4. **Global scope** - Finally check global scope
+5. **ReferenceError** - If not found, throw an error
+
+```javascript
+let global = "Global";
+
+function level1() {
+  let level1Var = "Level 1";
+
+  function level2() {
+    let level2Var = "Level 2";
+
+    function level3() {
+      let level3Var = "Level 3";
+
+      // Scope chain lookup order:
+      console.log(level3Var); // 1. Found in current scope
+      console.log(level2Var); // 2. Found in parent scope
+      console.log(level1Var); // 3. Found in grandparent scope
+      console.log(global); // 4. Found in global scope
+      // console.log(notDefined); // 5. ReferenceError
+    }
+
+    level3();
+  }
+
+  level2();
+}
+
+level1();
+```
+
+### Lexical Scoping vs Dynamic Scoping
+
+**JavaScript uses Lexical Scoping** - the scope is determined by where variables are declared in the code.
+
+```javascript
+let x = "global";
+
+function outer() {
+  let x = "outer";
+  inner();
+}
+
+function inner() {
+  console.log(x); // Prints "global" (lexical scoping)
+  // NOT "outer" (which would be dynamic scoping)
+}
+
+outer(); // Output: "global"
+```
+
+**Why "global"?** Because `inner()` function was **defined** in global scope, so it looks for `x` in global scope, regardless of where it was **called** from.
+
+### Practical Example: Function Factory
+
+Lexical scoping enables powerful patterns like function factories:
+
+```javascript
+function createCounter(initialValue = 0) {
+  let count = initialValue;
+
+  return function () {
+    count++; // Accesses 'count' from outer scope
+    return count;
+  };
+}
+
+const counter1 = createCounter(0);
+const counter2 = createCounter(100);
+
+console.log(counter1()); // 1
+console.log(counter1()); // 2
+console.log(counter2()); // 101
+console.log(counter1()); // 3
+```
+
+Each returned function "remembers" its own `count` variable due to lexical scoping.
+
+### Lexical Scoping with var vs let/const
+
+```javascript
+function demonstrateScoping() {
+  if (true) {
+    var varVariable = "I'm var";
+    let letVariable = "I'm let";
+  }
+
+  console.log(varVariable); // ✅ "I'm var" (function scoped)
+  // console.log(letVariable); // ❌ Error (block scoped)
+}
+```
+
+### Key Points About Lexical Scoping
+
+1. **Determined at compile time**, not runtime
+2. **Inner functions have access to outer variables**
+3. **Outer functions cannot access inner variables**
+4. **Creates the foundation for closures**
+5. **Scope chain follows the nesting structure of code**
+
+```javascript
+// Visual representation of scope chain
+let a = "global a";
+
+function outer() {
+  // Outer scope
+  let b = "outer b";
+
+  function middle() {
+    // Middle scope
+    let c = "middle c";
+
+    function inner() {
+      // Inner scope
+      let d = "inner d";
+
+      // Scope chain: inner → middle → outer → global
+      console.log(d); // Found in inner scope
+      console.log(c); // Found in middle scope
+      console.log(b); // Found in outer scope
+      console.log(a); // Found in global scope
+    }
+
+    inner();
+  }
+
+  middle();
+}
+
+outer();
+```
+
 ## Hoisting
 
 JavaScript prepares memory before running code and moves all declarations to the top - this is called **hoisting**.
