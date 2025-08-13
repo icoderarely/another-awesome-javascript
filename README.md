@@ -21,6 +21,7 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
 | [13-storage-cookies.md](13-storage-cookies.md)                   | Client-Side Storage & Cookies  | Expert       |
 | [14-execution-context.md](14-execution-context.md)               | Execution Context & Call Stack | Expert       |
 | [15-this-keyword.md](15-this-keyword.md)                         | The `this` Keyword             | Expert       |
+| [16-oops.md](16-oops.md)                                         | Object-Oriented Programming    | Expert       |
 
 ## �📚 Table of Contents
 
@@ -129,6 +130,7 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
     - When to use each storage mechanism
 
 14. **[Execution Context & Call Stack](14-execution-context.md)**
+
     - Understanding JavaScript execution environments
     - Global and Function execution contexts
     - Creation and execution phases
@@ -136,11 +138,19 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
     - Call stack management and function execution order
 
 15. **[The `this` Keyword](15-this-keyword.md)**
+
     - Understanding `this` in different contexts
     - Global, function, method, and class scope
     - Arrow functions and `this` behavior
     - Manual binding with call, apply, and bind
     - Common pitfalls and best practices
+
+16. **[Object-Oriented Programming](16-oops.md)**
+    - Constructor functions and the `new` keyword
+    - Prototypes and prototype chain
+    - ES6 Classes and inheritance
+    - Prototypal vs Classical inheritance
+    - OOP best practices and design patterns
 
 ## 🎯 Learning Path
 
@@ -163,12 +173,7 @@ Apply your knowledge to browser programming: 8. DOM Understanding 9. DOM Manipul
 
 ### Expert Level
 
-Master advanced web development concepts:
-11. Form Handling and Validation
-12. Timers and Intervals
-13. Client-Side Storage & Cookies
-14. Execution Context & Call Stack
-15. The `this` Keyword
+Master advanced web development concepts: 11. Form Handling and Validation 12. Timers and Intervals 13. Client-Side Storage & Cookies 14. Execution Context & Call Stack 15. The `this` Keyword 16. Object-Oriented Programming
 
 ## 💡 How to Use This Repository
 
