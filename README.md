@@ -18,6 +18,8 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
 | [10-events-and-handling.md](10-events-and-handling.md)           | Events and Event Handling      | Advanced     |
 | [11-form-handling.md](11-form-handling.md)                       | Form Handling and Validation   | Advanced     |
 | [12-timers-and-intervals.md](12-timers-and-intervals.md)         | Timers and Intervals           | Advanced     |
+| [13-storage-cookies.md](13-storage-cookies.md)                   | Client-Side Storage & Cookies  | Expert       |
+| [14-execution-context.md](14-execution-context.md)               | Execution Context & Call Stack | Expert       |
 
 ## �📚 Table of Contents
 
@@ -115,6 +117,23 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
     - Advanced timer patterns and use cases
     - Browser vs Node.js timer implementations
 
+### Expert Web Development
+
+13. **[Client-Side Storage & Cookies](13-storage-cookies.md)**
+
+    - localStorage and sessionStorage APIs
+    - Cookie creation, management, and security
+    - Data persistence strategies
+    - Security considerations and best practices
+    - When to use each storage mechanism
+
+14. **[Execution Context & Call Stack](14-execution-context.md)**
+    - Understanding JavaScript execution environments
+    - Global and Function execution contexts
+    - Creation and execution phases
+    - Scope chain and lexical scoping
+    - Call stack management and function execution order
+
 ## 🎯 Learning Path
 
 ### Beginner Level
@@ -136,13 +155,13 @@ Apply your knowledge to browser programming: 8. DOM Understanding 9. DOM Manipul
 
 ### Expert Level
 
-Master advanced web development concepts: 11. Form Handling and Validation 12. Timers and Intervals
+Master advanced web development concepts: 11. Form Handling and Validation 12. Timers and Intervals 13. Client-Side Storage & Cookies 14. Execution Context & Call Stack
 
 ## 💡 How to Use This Repository
 
 ### For Sequential Learning
 
-- Follow the numbered files in order (01, 02, 03, ..., 12)
+- Follow the numbered files in order (01, 02, 03, ..., 14)
 - Each concept builds upon the previous ones
 - Practice the code examples in your browser console or a JavaScript environment
 
