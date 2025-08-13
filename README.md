@@ -20,6 +20,7 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
 | [12-timers-and-intervals.md](12-timers-and-intervals.md)         | Timers and Intervals           | Advanced     |
 | [13-storage-cookies.md](13-storage-cookies.md)                   | Client-Side Storage & Cookies  | Expert       |
 | [14-execution-context.md](14-execution-context.md)               | Execution Context & Call Stack | Expert       |
+| [15-this-keyword.md](15-this-keyword.md)                         | The `this` Keyword             | Expert       |
 
 ## �📚 Table of Contents
 
@@ -134,6 +135,13 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
     - Scope chain and lexical scoping
     - Call stack management and function execution order
 
+15. **[The `this` Keyword](15-this-keyword.md)**
+    - Understanding `this` in different contexts
+    - Global, function, method, and class scope
+    - Arrow functions and `this` behavior
+    - Manual binding with call, apply, and bind
+    - Common pitfalls and best practices
+
 ## 🎯 Learning Path
 
 ### Beginner Level
@@ -155,13 +163,18 @@ Apply your knowledge to browser programming: 8. DOM Understanding 9. DOM Manipul
 
 ### Expert Level
 
-Master advanced web development concepts: 11. Form Handling and Validation 12. Timers and Intervals 13. Client-Side Storage & Cookies 14. Execution Context & Call Stack
+Master advanced web development concepts:
+11. Form Handling and Validation
+12. Timers and Intervals
+13. Client-Side Storage & Cookies
+14. Execution Context & Call Stack
+15. The `this` Keyword
 
 ## 💡 How to Use This Repository
 
 ### For Sequential Learning
 
-- Follow the numbered files in order (01, 02, 03, ..., 14)
+- Follow the numbered files in order (01, 02, 03, ..., 15)
 - Each concept builds upon the previous ones
 - Practice the code examples in your browser console or a JavaScript environment
 
