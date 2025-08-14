@@ -9,6 +9,7 @@ The **Global Object** provides variables and functions that are available anywhe
 - **Global object**: `window`
 - Represents the browser window
 - Provides access to DOM, BOM, and global variables
+- Implicit access: you don't need to write `window.` to call `alert()`.
 
 ```javascript
 console.log(window); // Window object
