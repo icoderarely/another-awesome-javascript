@@ -4,26 +4,26 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
 
 ## � Quick Navigation
 
-| File                                                             | Topic                          | Level        |
-| ---------------------------------------------------------------- | ------------------------------ | ------------ |
-| [01-variables-scope-hoisting.md](01-variables-scope-hoisting.md) | Variables, Scope, and Hoisting | Beginner     |
-| [02-data-types.md](02-data-types.md)                             | Data Types                     | Beginner     |
-| [03-operators.md](03-operators.md)                               | Operators                      | Beginner     |
-| [04-functions.md](04-functions.md)                               | Functions                      | Beginner     |
-| [05-arrays.md](05-arrays.md)                                     | Arrays                         | Intermediate |
-| [06-objects.md](06-objects.md)                                   | Objects                        | Intermediate |
-| [07-global.md](07-global.md)                                     | Global Object                  | Intermediate |
-| [08-dom.md](08-dom.md)                                           | DOM - Document Object Model    | Advanced     |
-| [09-dom-manip.md](09-dom-manip.md)                               | DOM Manipulation               | Advanced     |
-| [10-events-and-handling.md](10-events-and-handling.md)           | Events and Event Handling      | Advanced     |
-| [11-form-handling.md](11-form-handling.md)                       | Form Handling and Validation   | Advanced     |
-| [12-timers-and-intervals.md](12-timers-and-intervals.md)         | Timers and Intervals           | Advanced     |
-| [13-storage-cookies.md](13-storage-cookies.md)                   | Client-Side Storage & Cookies  | Expert       |
-| [14-execution-context.md](14-execution-context.md)               | Execution Context & Call Stack | Expert       |
-| [15-this-keyword.md](15-this-keyword.md)                         | The `this` Keyword             | Expert       |
-| [16-oops.md](16-oops.md)                                         | Object-Oriented Programming    | Expert       |
+| File                                                             | Topic                             | Level        |
+| ---------------------------------------------------------------- | --------------------------------- | ------------ |
+| [01-variables-scope-hoisting.md](01-variables-scope-hoisting.md) | Variables, Scope, and Hoisting    | Beginner     |
+| [02-data-types.md](02-data-types.md)                             | Data Types                        | Beginner     |
+| [03-operators.md](03-operators.md)                               | Operators                         | Beginner     |
+| [04-functions.md](04-functions.md)                               | Functions                         | Beginner     |
+| [05-arrays.md](05-arrays.md)                                     | Arrays                            | Intermediate |
+| [06-objects.md](06-objects.md)                                   | Objects                           | Intermediate |
+| [07-global.md](07-global.md)                                     | Global Object                     | Intermediate |
+| [08-dom.md](08-dom.md)                                           | DOM - Document Object Model       | Advanced     |
+| [09-dom-manip.md](09-dom-manip.md)                               | DOM Manipulation                  | Advanced     |
+| [10-events-and-handling.md](10-events-and-handling.md)           | Events and Event Handling         | Advanced     |
+| [11-form-handling.md](11-form-handling.md)                       | Form Handling and Validation      | Advanced     |
+| [12-timers-and-intervals.md](12-timers-and-intervals.md)         | Timers and Intervals              | Advanced     |
+| [13-storage-cookies.md](13-storage-cookies.md)                   | Client-Side Storage & Cookies     | Expert       |
+| [14-execution-context.md](14-execution-context.md)               | Execution Context & Call Stack    | Expert       |
+| [15-this-keyword.md](15-this-keyword.md)                         | The `this` Keyword                | Expert       |
+| [16-oops.md](16-oops.md)                                         | Object-Oriented Programming       | Expert       |
 | [17-apis.md](17-apis.md)                                         | APIs & Client-Server Architecture | Expert       |
-| [18-async.md](18-async.md)                                       | Asynchronous JavaScript       | Expert       |
+| [18-async.md](18-async.md)                                       | Asynchronous JavaScript           | Expert       |
 
 ## �📚 Table of Contents
 
@@ -148,6 +148,7 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
     - Common pitfalls and best practices
 
 16. **[Object-Oriented Programming](16-oops.md)**
+
     - Constructor functions and the `new` keyword
     - Prototypes and prototype chain
     - ES6 Classes and inheritance
@@ -155,6 +156,7 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
     - OOP best practices and design patterns
 
 17. **[APIs and Client-Server Architecture](17-apis.md)**
+
     - Client-server communication model
     - Understanding JSON data format
     - What are APIs and their types
