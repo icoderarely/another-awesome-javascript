@@ -22,6 +22,8 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
 | [14-execution-context.md](14-execution-context.md)               | Execution Context & Call Stack | Expert       |
 | [15-this-keyword.md](15-this-keyword.md)                         | The `this` Keyword             | Expert       |
 | [16-oops.md](16-oops.md)                                         | Object-Oriented Programming    | Expert       |
+| [17-apis.md](17-apis.md)                                         | APIs & Client-Server Architecture | Expert       |
+| [18-async.md](18-async.md)                                       | Asynchronous JavaScript       | Expert       |
 
 ## �📚 Table of Contents
 
@@ -152,6 +154,21 @@ Welcome to my JavaScript learning journey! This repository contains comprehensiv
     - Prototypal vs Classical inheritance
     - OOP best practices and design patterns
 
+17. **[APIs and Client-Server Architecture](17-apis.md)**
+    - Client-server communication model
+    - Understanding JSON data format
+    - What are APIs and their types
+    - HTTP methods and RESTful endpoints
+    - Working with APIs in JavaScript
+
+18. **[Asynchronous JavaScript](18-async.md)**
+    - Synchronous vs asynchronous execution
+    - The Event Loop and task queues
+    - Callbacks and callback hell
+    - Promises and promise chaining
+    - Async/await syntax and patterns
+    - XMLHttpRequest vs Fetch API
+
 ## 🎯 Learning Path
 
 ### Beginner Level
@@ -173,13 +190,13 @@ Apply your knowledge to browser programming: 8. DOM Understanding 9. DOM Manipul
 
 ### Expert Level
 
-Master advanced web development concepts: 11. Form Handling and Validation 12. Timers and Intervals 13. Client-Side Storage & Cookies 14. Execution Context & Call Stack 15. The `this` Keyword 16. Object-Oriented Programming
+Master advanced web development concepts: 11. Form Handling and Validation 12. Timers and Intervals 13. Client-Side Storage & Cookies 14. Execution Context & Call Stack 15. The `this` Keyword 16. Object-Oriented Programming 17. APIs & Client-Server Architecture 18. Asynchronous JavaScript
 
 ## 💡 How to Use This Repository
 
 ### For Sequential Learning
 
-- Follow the numbered files in order (01, 02, 03, ..., 15)
+- Follow the numbered files in order (01, 02, 03, ..., 18)
 - Each concept builds upon the previous ones
 - Practice the code examples in your browser console or a JavaScript environment
 
